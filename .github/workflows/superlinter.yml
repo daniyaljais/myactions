@@ -1,4 +1,4 @@
-name: Email Step Workflow
+name: Super Linter Workflow
 
 on:
   push:
@@ -9,8 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: 21f3000031@ds.study.iitm.ac.in
         run: echo "Hello, world!"
+
